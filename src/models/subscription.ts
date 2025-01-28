@@ -1,0 +1,6 @@
+export enum SUBSCRIPTION_LEVEL {
+  FREE,
+  TIER1,
+  TIER2,
+  TIER3
+}

@@ -1,0 +1,28 @@
+export const DATABASE_CALLS = {
+  GET_IMAGES_WITH_TAGS: 'getImagesWithTags',
+  GET_VIDEOS_WITH_TAGS: 'getVideosWithTags',
+  GET_VIDEO_PLAYLIST_BY_ID: 'getVideoPlaylistByID',
+  GET_VIDEO_PLAYLISTS: 'getVideoPlaylists',
+  GET_IMAGE_PLAYLISTS: 'getImagePlaylists',
+  INSERT_IMAGES: 'insertImages',
+  INSERT_VIDEOS: 'insertVideos',
+  ADD_TAGS_TO_IMAGE: 'addTagsToImage',
+  ADD_TAGS_TO_VIDEO: 'addTagsToVideo',
+  ADD_TAGS_TO_PLAYLIST: 'addTagsToPlaylist',
+  ADD_MODELS_TO_IMAGE: 'addModelsToImage',
+  ADD_MODELS_TO_VIDEO: 'addModelsToVideo',
+  ADD_MODELS_TO_PLAYLIST: 'addModelsToPlaylist',
+  GET_ALL_MODELS: 'getAllModels',
+  GET_ALL_TAGS: 'getAllTags',
+  CREATE_IMAGE_PLAYLIST: 'createImagePlaylist',
+  CREATE_VIDEO_PLAYLIST: 'createVideoPlaylist',
+  ADD_IMAGES_TO_PLAYLIST: 'addImagesToPlaylist',
+  ADD_VIDEOS_TO_PLAYLIST: 'addVideosToPlaylist',
+  GET_VIDEO_ID_BY_PATH: 'getVideoIDByPath',
+  GET_IMAGE_ID_BY_PATH: 'getImageIDByPath',
+  DOES_VIDEO_EXIST: 'doesVideoExist',
+  DOES_IMAGE_EXIST: 'doesImageExist',
+  GET_VIDEOS_IN_PLAYLIST: 'getVideosInPlaylist',
+  GET_IMAGES_IN_PLAYLIST: 'getImagesInPlaylist'
+}
+
