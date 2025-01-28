@@ -1,12 +1,5 @@
 import {defineStore} from 'pinia';
-import {
-  deleteImage,
-  deleteMedia,
-  getMedia,
-  getPlaylists,
-  storeImage,
-  storeMedia
-} from "src/services/DatabaseController";
+import {deleteImage, getMedia, storeImage, storeMedia} from "src/services/DatabaseController";
 import {toRaw} from "vue";
 import {createUUID} from "../../shared/Utils";
 
@@ -14,7 +7,7 @@ export const useImageStore = defineStore('images', {
   state: () => ({
     imageMedia: [] as IMediaImage[],
     mediaTags: [
-      {label: 'Lesbian', id: createUUID()}
+      {label: 'Cars', id: createUUID()}
     ] as IMediaTag[],
     shortcuts: [] as IShortCut[]
   }),
